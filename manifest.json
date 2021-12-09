@@ -1,0 +1,21 @@
+{
+  "name": "Close Tab",
+  "description": "Handy close tab button when in vertical tabs mode",
+  "author": "Shreya Dahal",
+  "homepage_url": "https://github.com/squgeim/close-tab",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Close tab",
+    "default_icon": "close.png"
+  },
+  "icons": {
+    "128": "close.png"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
